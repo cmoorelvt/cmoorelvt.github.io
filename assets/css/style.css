@@ -59,6 +59,7 @@
 
 #gifs-rows img {
   cursor: pointer;
+  width: 500px;
 
 }
 #gifs-rows .gif-file {
