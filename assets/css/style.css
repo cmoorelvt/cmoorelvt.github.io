@@ -1,53 +1,90 @@
-
-
-h1 {
-    color: #efeee7;
-    background-color: #333333;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-body {
-    font-family: "Georgia", 'Times New Roman', Times, serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #efeee7;
-    font-size: 18px;
-    line-height: 150%;
-}
-
-a {
-    color: #d21034;
-}
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
-}
-
-#main-bio {
-    width: 70%;
-}
-
-#contact-info: {
-    width: 30%;
-}
-
-#bio-image {
-    margin: 20px;
-    width: 200px;
-    height: 250px;
-}
+  }
+  
+  .nav-link {
+    color: black
+  }
+  
+  .nav-link:hover {
+    color: grey;
+  }
+  
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      background: no-repeat center center;
+      background-size: 100% 100%;
+    }
+  
+    body {
+      background-image: url(./images/background-image.jpg);
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+  .container {
+    align-self: center;
+  }
+  
+  label {
+      color: rgb(59, 59, 59);
+      text-indent: 15px;
+  }
+  
+  img {
+      float: left;
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 100%;
+      padding: 20px; 
+      border-color: black;
+      border-image-outset: 10px;
+      }
+  
+  a {
+    color: black;
+  }
+  
+  p {
+   text-align: center;
+   padding: 10%;
+  }
+  
+  .card-w-50 {
+      position: absolute;
+  }
+  
+  .card-header {
+      text-transform: uppercase;
+  }
+  
+  .container {
+    padding: 20px;
+    float: center;
+  }
+  
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+  
+    @media screen and (max-width: 768px) {
+      .container {
+        margin: 0 2% 55% 2%;
+        width: 600px;
+      }
+    }
+  
+    @media screen and (max-width: 414px) {
+      .container {
+        width: 300px;
+      }
+    }
