@@ -24,6 +24,10 @@ button {
   background-color: rgb(228, 225, 225);
 }
 
+#port-block {
+  margin-bottom: 10px;
+}
+
 .card-text {
   padding: 0px;
 }
