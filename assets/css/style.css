@@ -92,6 +92,10 @@
    padding: 10%;
   }
   
+  .card-text {
+    margin: 0, 0;
+  }
+  
   .card-w-50 {
       position: absolute;
   }
