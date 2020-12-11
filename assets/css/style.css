@@ -3,7 +3,30 @@
     padding: 0;
   }
   
+h5 {
+  margin-top: 25px;
+}
 
+.bio-container {
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+button {
+  margin-bottom: 25px;
+}
+
+.card text-center {
+  padding: 35rem;
+}
+
+.card-body {
+  background-color: rgb(228, 225, 225);
+}
+
+.card-text {
+  padding: 0px;
+}
   /* Background gradient */
   .css-selector {
     background: linear-gradient(270deg, #03890e, #4a1594);
@@ -60,6 +83,7 @@
 #gifs-rows img {
   cursor: pointer;
   width: 500px;
+  height: auto;
   border-radius: 25px;
 }
 
@@ -73,37 +97,46 @@
       text-indent: 15px;
   }
   
+
+.mb-3 {
+  background-color: rgb(228, 225, 225);
+}
 .col-md-4 img {
       float: left;
-      margin: 2.75rem;
-      padding-left: 25px;
-      padding-right: 25px;
+      border-radius: 25px;
+      margin-top: 65px;
+      margin-left: 45px;
+      
+      /* 
       width: 115%;
       padding: 20px; 
       border-color: black;
-      border-image-outset: 10px;
+      border-image-outset: 10px; */
       }
   
   a {
     color: black;
   }
   
-  p {
+  .bio-container p {
    text-align: center;
-   padding: 10%;
+   padding: 8%;
+   margin-left: 35px;
+   margin-bottom: 35px;
   }
   
-  .card-text {
-    margin: 0, 0;
+  .bio-card-text {
+    margin-left: 15;
+    float: right;
   }
 
   .card-w-50 {
       position: absolute;
   }
   
-  .card-header {
+  /* .card-header {
       text-transform: uppercase;
-  }
+  } */
   
   .container {
     padding: 20px;
