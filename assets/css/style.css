@@ -3,6 +3,8 @@
     padding: 0;
   }
   
+
+  /* Background gradient */
   .css-selector {
     background: linear-gradient(270deg, #0c6b07, #3e076b);
     background-size: 400% 400%;
@@ -33,7 +35,8 @@
 }
 
   .nav-link {
-    color: black
+    color: black;
+    font-weight: normal;
   }
   
   .nav-link:hover {
@@ -94,15 +97,22 @@
     float: center;
   }
   
-  footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: black;
-      color: white;
-      text-align: center;
-    }
+   
+  /* Footer */
+
+  #footer-wrap {
+    text-align: center;
+    margin-top: 5rem;  
+}
+
+#footer {
+    background: rgb(228, 225, 225);
+}
+
+#footer a i {
+    margin: 0.5rem;
+}
+
   
     @media screen and (max-width: 768px) {
       .container {
