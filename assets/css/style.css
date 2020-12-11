@@ -56,12 +56,22 @@
     align-self: center;
   }
   
+
+#gifs-rows img {
+  cursor: pointer;
+
+}
+#gifs-rows .gif-file {
+  display:none;
+}
+
+
   label {
       color: rgb(59, 59, 59);
       text-indent: 15px;
   }
   
-  img {
+.col-md-4 img {
       float: left;
       margin: 2.75rem;
       padding-left: 25px;
