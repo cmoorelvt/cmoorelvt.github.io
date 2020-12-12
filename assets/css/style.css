@@ -189,15 +189,6 @@ a {
   margin: 0.5rem;
 }
 
-.static {
-position:absolute;
-background: white;
-}
-
-.static:hover {
-opacity:0;
-}
-
 
 .card-row {
 margin: 0% 5% 2% 5%;
@@ -209,20 +200,14 @@ margin: 0 auto;
 
 .card {
 background: #d7dfda;
-border-color: #d7dfda;
-/* overflow: scroll; */
 }
 
 .card img {  
 width: 100%;
-height: 15rem;
+height: 20rem;
 object-fit: cover;
 margin-left: 0;
 }
-
-/* .card img:hover {  
-opacity: 0.8; 
-} */
 
 .card-body {
 margin: 0%;
@@ -235,15 +220,18 @@ padding-bottom: 4%;
 
 .card-body a {
 background: #98ada0;
-border-color: #98ada0;
 }
 
+#github-btn {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+}
 /* .card-body a:hover {
 background: #d7dfda;
 border-color: #98ada0;
 color: #98ada0;
 } */
-
 
 
   @media screen and (max-width: 768px) {
