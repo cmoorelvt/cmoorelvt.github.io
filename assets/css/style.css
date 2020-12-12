@@ -1,204 +1,262 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
 h5 {
-  margin-top: 20px;
+margin-top: 20px;
 }
 
 .bio-container {
-  margin-left: 30%;
-  margin-top: 3%;
+align-items: center;
+float: auto;
 }
 
 button {
-  margin-bottom: 25px;
+margin-bottom: 25px;
 }
 
-.card text-center {
-  padding: 35rem;
+/* .card text-center {
+padding: 35rem;
+} */
+
+/* .card-body {
+background-color: rgb(228, 225, 225);
+align-self: auto;
 }
 
-.card-body {
-  background-color: rgb(228, 225, 225);
-}
+.card img {
+margin-right: 25px;
+} */
 
-#port-block1 {
-  margin-bottom: 10px;
-  margin-left: 20%;
+/* #port-block1 {
+margin-bottom: 10px;
+margin-left: 20%;
 }
 
 #port-block2 {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #port-block3 {
-  margin-bottom: 10px;
-  margin-left: 20%;
+margin-bottom: 10px;
+margin-left: 20%;
 }
 
 #port-block4 {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #port-block5 {
-  margin-bottom: 10px;
-  margin-left: 20%;
+margin-bottom: 10px;
+margin-left: 20%;
 }
 
 #port-block6 {
-  margin-bottom: 10px;
-}
+margin-bottom: 10px;
+} */
 
-.card-text {
-  padding: 0px;
-}
-  /* Background gradient */
-  .css-selector {
-    background: linear-gradient(270deg, #05a744, #5f0990, #091290, #077a1a);
-    background-size: 800% 800%;
+/* .card-text {
+padding: 0px;
+} */
+/* Background gradient */
+.css-selector {
+  background: linear-gradient(270deg, #05a744, #5f0990, #091290, #077a1a);
+  background-size: 800% 800%;
 
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
 
-  .nav-link {
-    color: black;
-    font-weight: normal;
-  }
-  
-  .nav-link:hover {
-    color: grey;
-  }
-  
-    .navbar-toggler-icon {
-      display: inline-block;
-      width: 1.5em;
-      height: 1.5em;
-      vertical-align: middle;
-      background: no-repeat center center;
-      background-size: 100% 100%;
-    }
-  
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  
-  .container {
-    align-self: center;
-  }
-  
+.nav-link {
+  color: black;
+  font-weight: normal;
+}
 
-#gifs-rows img {
-  cursor: pointer;
-  width: 500px;
-  height: auto;
-  border-radius: 25px;
+.nav-link:hover {
+  color: grey;
+}
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+/* #gifs-rows img {
+cursor: pointer;
+width: 500px;
+height: auto;
+border-radius: 25px;
 }
 
 #gifs-rows .gif-file {
-  display:none;
+display:none;
+} */
+
+
+label {
+    color: rgb(59, 59, 59);
+    text-indent: 15px;
 }
 
-
-  label {
-      color: rgb(59, 59, 59);
-      text-indent: 15px;
-  }
-  
 
 .mb-3 {
-  background-color: rgb(228, 225, 225);
+background-color: rgb(228, 225, 225);
 }
 .col-md-4 img {
-      float: left;
-      border-radius: 25px;
-      margin-top: 65px;
-      margin-left: 45px;
-      
-      /* 
-      width: 115%;
-      padding: 20px; 
-      border-color: black;
-      border-image-outset: 10px; */
-      }
-  
-  a {
-    color: black;
-  }
-  
-  .bio-container p {
-   text-align: center;
-   padding: 8%;
-   margin-left: 35px;
-   margin-bottom: 35px;
-  }
-  
-  .bio-card-text {
-    margin-left: 15;
-    margin-top: 14px;
-    float: right;
-  }
+    float: left;
+    border-radius: 25px;
+    margin-top: 65px;
+    margin-left: 45px;
 
-  .card-w-50 {
-      position: absolute;
-  }
-  
-  /* .card-header {
-      text-transform: uppercase;
-  } */
-  
-  .container {
+    /*
+    width: 115%;
     padding: 20px;
-    float: center;
-  }
-  
+    border-color: black;
+    border-image-outset: 10px; */
+    }
 
-  /* Footer */
+a {
+  color: black;
+}
 
-  #footer-wrap {
-    text-align: center;
-    margin-top: 5rem;  
+.bio-container p {
+ text-align: center;
+ padding: 8%;
+ margin-left: 35px;
+ margin-bottom: 35px;
+}
+
+.bio-card-text {
+  margin-left: 15;
+  margin-top: 14px;
+  float: right;
+}
+
+.card-w-50 {
+    position: absolute;
+}
+
+/* .card-header {
+    text-transform: uppercase;
+} */
+
+.container {
+  padding: 20px;
+  float: center;
+  align-self: center;
+}
+
+
+/* Footer */
+
+#footer-wrap {
+  text-align: center;
+  margin-top: 5rem;
 }
 
 #footer {
-    background: rgb(228, 225, 225);
+  background: rgb(228, 225, 225);
 }
 
 #footer a i {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
-  
-    @media screen and (max-width: 768px) {
-      .container {
-        margin: 0 2% 55% 2%;
-        width: 600px;
-      }
+.static {
+position:absolute;
+background: white;
+}
+
+.static:hover {
+opacity:0;
+}
+
+
+.card-row {
+margin: 0% 5% 2% 5%;
+}
+
+.card-row div {
+margin: 0 auto;
+}
+
+.card {
+background: #d7dfda;
+border-color: #d7dfda;
+/* overflow: scroll; */
+}
+
+.card img {  
+width: 100%;
+height: 15rem;
+object-fit: cover;
+margin-left: 0;
+}
+
+/* .card img:hover {  
+opacity: 0.8; 
+} */
+
+.card-body {
+margin: 0%;
+}
+
+.card-text {
+padding-left: 0%;
+padding-bottom: 4%;
+}
+
+.card-body a {
+background: #98ada0;
+border-color: #98ada0;
+}
+
+/* .card-body a:hover {
+background: #d7dfda;
+border-color: #98ada0;
+color: #98ada0;
+} */
+
+
+
+  @media screen and (max-width: 768px) {
+    .container {
+      margin: 0 2% 55% 2%;
+      width: 600px;
     }
-  
-    @media screen and (max-width: 414px) {
-      .container {
-        width: 300px;
-      }
+  }
+
+  @media screen and (max-width: 414px) {
+    .container {
+      width: 300px;
     }
+  }
 
 
