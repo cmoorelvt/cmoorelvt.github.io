@@ -1,28 +1,28 @@
-## My Portfolio
+## Hi there 👋
 
-[cmoorelvt.github.io](http://cmoorelvt.github.io/)
+<!--
+**cmoorelvt/cmoorelvt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
 
-Here you can find a simple portfolio page containing projects I created while working towards completing the University of Richmond full-stack development program
-
----
-
-### Technologies
-
-- HTML
-- CSS / Reset CSS
-- JS
-- BootStrap
-- Font Awesome
-- Google Fonts
+- 🔭 I’m currently working on a full stack certificate through University of Richmond.
+- 👯 I'm looking to collaborate with other developers. 
+- 😄 Pronouns: she/her/hers
+- ⚡ Fun fact: I have a right hand drive car, a Nissan Skyline, from Japan. I can also drive manual transmission.
+- 👔 You can find my portfolio [here](https://cmoorelvt.github.io/portfolio.html) 
 
 ---
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cmoorelvt&layout=compact&theme=radical)](https://github.com/cmoorelvt/github-readme-stats)
 
-### Screenshots 
+![Christine's github stats](https://github-readme-stats.vercel.app/api?username=cmoorelvt&show_icons=true&theme=radical)
 
-##### Desktop
+## You can find me here
+[website]
 
-![desktop-gif]
+[linkedin]
 
-##### Mobile
+[email]
 
-![mobile-gif]
+
+[website]: https://cmoorelvt.github.io/
+[linkedin]: https://www.linkedin.com/in/cmoorelvt/
+[email]: mailto:cmoorelvt@gmail.com
