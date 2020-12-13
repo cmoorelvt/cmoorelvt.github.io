@@ -59,6 +59,7 @@ margin-bottom: 10px;
 /* .card-text {
 padding: 0px;
 } */
+
 /* Background gradient */
 .css-selector {
   background: linear-gradient(270deg, #05a744, #5f0990, #091290, #077a1a);
@@ -189,6 +190,10 @@ a {
   margin: 0.5rem;
 }
 
+.fixed-bottom a:hover {
+  color: rgb(95, 93, 93);
+}
+
 
 .card-row {
 margin: 0% 5% 2% 5%;
@@ -213,20 +218,22 @@ margin-left: 0;
 margin: 0%;
 }
 
+.card-body a:hover {
+  color: grey;
+}
+
 .card-text {
 padding-left: 0%;
 padding-bottom: 4%;
 }
 
-.card-body a {
-background: #98ada0;
-}
-
 #github-btn {
   position: absolute;
-  bottom: 0; 
-  right: 0;
+  bottom: 3.5%; 
+  right: 5%;
 }
+
+
 /* .card-body a:hover {
 background: #d7dfda;
 border-color: #98ada0;
